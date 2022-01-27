@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  background-image: url("https://img.freepik.com/vector-gratis/composicion-fondo-degradado-suave-borrosa-moderna-azul-claro_1053-1199.jpg?size=626&ext=jpg");
+  background-size: 400%;
+}
+
+h1{
+  font-family: 'Domine', serif;
+  color: rgba(255, 6, 6, 0.959);
+  -webkit-text-stroke:0.8px black;
+  text-align: center;
+  font-size: 80px;
+
+}
+
+h2{
+  font-family: cursive;
+  color: rgb(255, 0, 0);
+  padding: 12px;
+}
+
+p{
+  font-family: cursive;
+  text-align:justify;
+  padding: 15px;
+}
+
+img{
+width: 50%;
+height: auto;
+}
+/*
+
+
+#chapter4{
+  font-family: cursive;
+}
+
+#chapter5{
+  font-family: cursive;
+}
+
+#chapter6{
+  font-family: cursive;
+}*/
