@@ -1,47 +1,58 @@
 body{
+  font-family: "Merienda", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  background-image: url("https://img.freepik.com/vector-gratis/composicion-fondo-degradado-suave-borrosa-moderna-azul-claro_1053-1199.jpg?size=626&ext=jpg");
-  background-size: 400%;
+  background: linear-gradient(to bottom right, #041b27, #00d7ff); /*cambiamos el fondo imagen por css directo*/  
 }
 
-h1{
-  font-family: 'Domine', serif;
-  color: rgba(255, 6, 6, 0.959);
-  -webkit-text-stroke:0.8px black;
+#title{
+  font-family: "Merienda", cursive;
+  background: linear-gradient(to right, #1e7fff, #31ff87);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: text 5s linear infinite;
   text-align: center;
-  font-size: 80px;
-
+  font-size: 50px;
+  margin-top: 20px;
 }
 
-h2{
-  font-family: cursive;
-  color: rgb(255, 0, 0);
-  padding: 12px;
+@keyframes text {
+  0%{
+    filter:hue-rotate(0deg);
+  }
+  100%{
+    filter:hue-rotate(360deg);
+  }
 }
 
-p{
-  font-family: cursive;
+.ChapterContainer{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  color: whitesmoke;
+  
+}
+
+.ChapterContainer h2{
+
+  text-align:center;
+  padding: 15px;
+}
+.ChapterContainer p{
   text-align:justify;
   padding: 15px;
 }
-
-.imagen{
-  width: 50%;
-  height: auto;
+.ChapterContainer img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 30rem;
 }
-
-
-/*
-
-
-#chapter4{
-  font-family: cursive;
-}
-
-#chapter5{
-  font-family: cursive;
-}
-
-#chapter6{
-  font-family: cursive;
-}*/
