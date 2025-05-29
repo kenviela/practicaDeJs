@@ -25,10 +25,12 @@ p{
   padding: 15px;
 }
 
-img{
-width: 50%;
-height: auto;
+.imagen{
+  width: 50%;
+  height: auto;
 }
+
+
 /*
 
 
